@@ -1,0 +1,36 @@
+# cal12<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Working Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="calculator">
+    <input type="text" id="display" readonly>
+
+    <button onclick="press(7)">7</button>
+    <button onclick="press(8)">8</button>
+    <button onclick="press(9)">9</button>
+    <button onclick="operator('+')">+</button>
+
+    <button onclick="press(4)">4</button>
+    <button onclick="press(5)">5</button>
+    <button onclick="press(6)">6</button>
+    <button onclick="operator('-')">-</button>
+
+    <button onclick="press(1)">1</button>
+    <button onclick="press(2)">2</button>
+    <button onclick="press(3)">3</button>
+    <button onclick="operator('*')">*</button>
+
+    <button onclick="press(0)">0</button>
+    <button onclick="clearAll()">C</button>
+    <button onclick="equal()">=</button>
+    <button onclick="operator('/')">/</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
